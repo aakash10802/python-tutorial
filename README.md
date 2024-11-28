@@ -1,40 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Python Syntax Overview
 
-## Getting Started
+## Introduction  
+Syntax is essentially a set of rules that defines how code should be written, like a language’s grammar.  
+In Python, the syntax is designed to be clean and easy to read, making it beginner-friendly.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Python Code Structure  
+- **Sequential Execution:**  
+  Each line of code is executed in sequence, running from top to bottom. This helps make Python code both logical and straightforward.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Indentation:**  
+  Unlike other languages that use symbols to separate code blocks, Python uses **indentation**—spaces or tabs at the start of a line. This indentation makes the structure of the code clear and easy to follow.  
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+  **Example:**  
+  ```python
+  if True:
+      print("This is indented and part of the if block.")
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Syntax is essentially a set of rules that defines how code should be written, like a language’s grammar.
 
-## Learn More
+In Python, the syntax is designed to be clean and easy to read, making it beginner-friendly.
 
-To learn more about Next.js, take a look at the following resources:
+Each line of code is executed in sequence, running from top to bottom.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+This structure helps make Python code both logical and straightforward.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Unlike other languages that use symbols to separate code blocks, Python uses indentation—meaning spaces or tabs at the start of a line.
 
-## Deploy on Vercel
+For example, when we write a condition, the lines within that condition are indented, letting Python know they belong together.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This indentation makes the structure of the code clear and easy to follow.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Comments are notes added to the code that Python ignores when the program runs.
+
+They start with a special symbol and are mainly used to explain what the code does.
+
+Adding comments can be really helpful, both for others reading your code and as reminders for yourself.
+
+The "print" function is used to display text or numbers on the screen.
+
+It’s a simple way to show information, whether it’s a message, a result, or any other output you want the user to see.
+
+Think of variables as containers that hold data values, like names or numbers.
+
+You assign a value to a variable using an equals sign, which stores the data so you can use it later in your code.
+
+These are the basic data types you’ll work with in your code.
+
+A string is used for text, like a name or any other words.
+
+An integer is a whole number, useful for counting or indexing.
+
+And a float represents decimal numbers, which come in handy for more precise values like measurements.
+
+SubtitleA variable name must start with a letter or an underscore.
+
+You can also use numbers within the name but not at the start.
+
+Also, be careful not to use Python keywords as variable names as that is not allowed.
