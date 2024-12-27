@@ -71,9 +71,9 @@ k={4,5}
 
 
 
-# d={5,6,7,8,9,10}
+d={5,6,7,8,9,10}
 # print(s.union(d))
 # print(s.difference(k))
 # print(s.intersection(k))
 
-# print(s.symmetric_difference(k))
+print(s.symmetric_difference(k))

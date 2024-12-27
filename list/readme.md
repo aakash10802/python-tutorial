@@ -61,3 +61,20 @@ SubtitleA variable name must start with a letter or an underscore.
 You can also use numbers within the name but not at the start.
 
 Also, be careful not to use Python keywords as variable names as that is not allowed.
+
+
+For Loop and List Combination Practice Questions
+
+Task: Write a Python program that uses a for loop to find the sum of all the elements in a given list.
+Task: Write a program that finds the largest number in a list using a for loop.
+Task: Write a Python program that counts how many times a specific element (e.g., 5) appears in a list.
+Task: Given a list of numbers, create a new list where each number is squared using a for loop.
+Task: Write a Python program that categorizes numbers in a list into two separate lists: one for even numbers and one for odd numbers.
+Task: Write a Python program that removes all negative numbers from a list.
+Task: Write a Python program that checks if a specific number exists in a list.
+Task: Write a Python program that uses a for loop to reverse a given list.
+Task: Write a Python program that finds the common elements between two lists using a for loop.
+Task: Write a Python program that multiplies each element in a list by a given factor (e.g., 3).
+Task: Write a Python program that creates a list of all even numbers between 1 and 20 using a for loop.
+Task: Write a Python program to find the second largest number in a list.
+Task: Write a Python program that removes duplicate elements from a list and returns a list of unique elements.
